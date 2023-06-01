@@ -463,6 +463,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
+      propertyPath: spatialAnchorsAccountId
+      value: 499cf653-ebaf-4fcd-9988-f903211ccda7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
+      propertyPath: spatialAnchorsAccountKey
+      value: M9B+TRaCcO63vUhO3CtWrFoLN0CD0LOCP3hfmUubqRw=
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
+      propertyPath: spatialAnchorsAccountDomain
+      value: mixedreality.azure.com
+      objectReference: {fileID: 0}
     - target: {fileID: 5569524867056704841, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
       propertyPath: m_Name
       value: AzureSpatialAnchorManager
@@ -623,6 +635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2351505566903569412, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2351505567455720332, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -670,6 +686,10 @@ PrefabInstance:
     - target: {fileID: 2351505567455720334, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
       propertyPath: m_Name
       value: MRTK XR Rig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3712792914886690938, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
@@ -875,7 +895,6 @@ GameObject:
   - component: {fileID: 1589138556169609565}
   - component: {fileID: 1589138556169609566}
   - component: {fileID: 1589138556169609568}
-  - component: {fileID: 1589138556169609569}
   m_Layer: 0
   m_Name: AnchoredRoot
   m_TagString: Untagged
@@ -1269,33 +1288,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6b2a6c8b0a1ac4d87dda34f7828fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1589138556169609569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525924127853659746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 601831adb7f2bc147ab64b331d287b8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SyncPositionX: 1
-  SyncPositionY: 1
-  SyncPositionZ: 1
-  SyncRotAngleX: 1
-  SyncRotAngleY: 1
-  SyncRotAngleZ: 1
-  SyncScaleX: 1
-  SyncScaleY: 1
-  SyncScaleZ: 1
-  PositionThreshold: 0.001
-  RotAngleThreshold: 0.01
-  ScaleThreshold: 0.01
-  UseQuaternionSynchronization: 0
-  UseQuaternionCompression: 0
-  UseHalfFloatPrecision: 0
-  InLocalSpace: 0
-  Interpolate: 1
-  SlerpPosition: 0

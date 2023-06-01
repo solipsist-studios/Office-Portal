@@ -18,10 +18,6 @@ public class SceneAnchorController : NetworkBehaviour
 
     private void Update()
     {
-        if (IsOwner)
-        {
-            Debug.Log("Scene anchor owned by client: " + NetworkManager.Singleton.LocalClientId);
-        }
         //NetworkObject netObj = 
 
         //if (this.parentNetworkObject == null ||
