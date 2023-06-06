@@ -1,8 +1,11 @@
 // Copyright (c) Solipsist Studios Inc.
 // Licensed under the MIT License.
 
+#if UNITY_WSA || UNITY_ANDROID
 using Microsoft.Azure.SpatialAnchors;
 using Microsoft.Azure.SpatialAnchors.Unity;
+#endif
+
 using System.Collections.Generic;
 
 using Unity.Netcode;
@@ -59,19 +62,24 @@ public class SceneAnchorController : NetworkBehaviour
             return;
         }
 
+#if UNITY_WSA || UNITY_ANDROID
         this.spatialAnchorManager.AnchorLocatedCallback += SpatialAnchorManager_AnchorLocatedCallback;
+#endif
     }
 
+#if UNITY_WSA || UNITY_ANDROID
     private void SpatialAnchorManager_AnchorLocatedCallback(AnchorObjectModel model, AnchorLocatedEventArgs eventArgs)
     {
         // Attach the anchor components
         Pose anchorPose = eventArgs.Anchor.GetPose();
         this.transform.SetPositionAndRotation(anchorPose.position, anchorPose.rotation);
 
+
         this.spatialAnchorManager.AnchorGameObject(this.gameObject, eventArgs.Anchor);
 
         OnAnchorSet();
     }
+#endif
 
     private void OnAnchorSet()
     {

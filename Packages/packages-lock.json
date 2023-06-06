@@ -461,7 +461,7 @@
       "url": "https://packages.unity.com"
     },
     "studio.solipsist.stage": {
-      "version": "file:c:/Users/starj/dev/Solipsist/stage-unity",
+      "version": "file:d:/Users/jeff/dev/Solipsist/stage-unity",
       "depth": 0,
       "source": "local",
       "dependencies": {
