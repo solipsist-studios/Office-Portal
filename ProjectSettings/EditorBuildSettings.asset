@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
@@ -17,8 +17,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/AirBnB.unity
     guid: f774094f11b5e1e4b9b839375b98000a
+  - enabled: 0
+    path: Assets/Scenes/Zu.unity
+    guid: df6d25f1ac4c2274f812096be764f956
+  - enabled: 1
+    path: Assets/Scenes/CollisionDryRun.unity
+    guid: b9666e571a9607342a3cbbfef23586ad
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e8463ceb326a2614b8e66311df25baa7, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f5f778d5f1e313d40addc7415b4ccaa8, type: 2}
+    WebXR.Settings: {fileID: 11400000, guid: 88efe604888bbc9488fbbd7f823cc2e2, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 78bf33dbb8e75fc47a1eee681c03beb5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 3e6edff74be6d954a9da44028c25eff3, type: 2}

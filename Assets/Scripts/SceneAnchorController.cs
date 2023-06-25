@@ -20,8 +20,10 @@ public class SceneAnchorController : NetworkBehaviour
 {
     //[SerializeField] private NetworkObject parentNetworkObject = null;
     //[SerializeField] private GameObject sceneVisuals = null; // Root of physical/visible object
-    
+
+#if UNITY_WSA || UNITY_ANDROID
     private AzureSpatialAnchors spatialAnchorManager = null;
+#endif
     private ulong? ownerId = null;
     private bool isSceneAnchorSet = false;
 
@@ -54,6 +56,7 @@ public class SceneAnchorController : NetworkBehaviour
 
     private void Start()
     {
+#if UNITY_WSA || UNITY_ANDROID
         this.spatialAnchorManager = FindObjectOfType<AzureSpatialAnchors>();
 
         if (this.spatialAnchorManager == null)
@@ -62,7 +65,6 @@ public class SceneAnchorController : NetworkBehaviour
             return;
         }
 
-#if UNITY_WSA || UNITY_ANDROID
         this.spatialAnchorManager.AnchorLocatedCallback += SpatialAnchorManager_AnchorLocatedCallback;
 #endif
     }

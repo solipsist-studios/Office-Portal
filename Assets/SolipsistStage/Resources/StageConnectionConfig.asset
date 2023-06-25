@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: StageConnectionConfig
   m_EditorClassIdentifier: 
   networkRole: 1
-  serverAddr: 20.7.56.86
+  serverAddr: 20.119.162.177
   serverPort: 7777
   baseAPIAddress: https://experience-control.azurewebsites.net/api
-  experienceID: 6b529aa9-64ad-4e55-8d59-b8eda124ab0b
+  experienceID: 8efbf342-ef85-4753-aab3-5cf1c97567ab
   addAnchorApiCode: Y-A4kiAcZASGwhM9YUFbWou4jXgQ0Voo3273npE0Tug2AzFuipELcg==
   getAnchorsApiCode: YM_o-NDhqimnxzhS1iCK4JB-aP3_O80WTe1OxsT6Op7PAzFuhHXGpw==

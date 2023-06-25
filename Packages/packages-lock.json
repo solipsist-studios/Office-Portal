@@ -19,6 +19,15 @@
       "dependencies": {},
       "hash": "858f6df3273c70eb6193f489b36c46429164d9fa"
     },
+    "com.de-panther.webxr": {
+      "version": "0.16.1-preview",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "3.2.13"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.microsoft.azure.spatial-anchors-sdk.android": {
       "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.13.3.tgz",
       "depth": 0,
@@ -361,11 +370,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arcore": {
-      "version": "4.2.7",
+      "version": "4.2.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.2.7",
+        "com.unity.xr.arsubsystems": "4.2.8",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.androidjni": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
@@ -384,7 +393,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.2.7",
+      "version": "4.2.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {

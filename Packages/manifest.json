@@ -2,6 +2,7 @@
   "dependencies": {
     "com.atteneder.gltfast": "5.0.4",
     "com.community.netcode.transport.websocket": "https://github.com/Unity-Technologies/multiplayer-community-contributions.git?path=/Transports/com.community.netcode.transport.websocket",
+    "com.de-panther.webxr": "0.16.1-preview",
     "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.13.3.tgz",
     "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.13.3.tgz",
     "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.13.3.tgz",
@@ -24,7 +25,7 @@
     "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
-    "com.unity.xr.arcore": "4.2.7",
+    "com.unity.xr.arcore": "4.2.8",
     "com.unity.xr.oculus": "3.3.0",
     "com.unity.xr.openxr": "1.7.0",
     "studio.solipsist.stage": "file:d:/Users/jeff/dev/Solipsist/stage-unity",
@@ -65,7 +66,8 @@
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.atteneder.gltfast"
+        "com.atteneder.gltfast",
+        "com.de-panther"
       ]
     }
   ]
