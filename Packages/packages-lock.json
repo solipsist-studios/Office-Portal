@@ -216,7 +216,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.1",
+      "version": "1.6.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -382,11 +382,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "4.2.7",
+      "version": "4.2.8",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.2.7",
+        "com.unity.xr.arsubsystems": "4.2.8",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.particlesystem": "1.0.0"
       },
@@ -470,7 +470,7 @@
       "url": "https://packages.unity.com"
     },
     "studio.solipsist.stage": {
-      "version": "file:d:/Users/jeff/dev/Solipsist/stage-unity",
+      "version": "file:c:/Users/starj/dev/Solipsist/stage-unity",
       "depth": 0,
       "source": "local",
       "dependencies": {
