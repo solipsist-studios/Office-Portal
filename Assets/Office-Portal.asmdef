@@ -1,0 +1,24 @@
+{
+    "name": "Office-Portal",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fd4abe4ffe74ef1448afe15c6cb36bb7",
+        "GUID:4847341ff46394e83bb78fbd0652937e",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:a9420e37d7990b54abdef6688edbe313",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:2584885d8cc57594eb763ecedeae05bb",
+        "GUID:33d8827e6b886c24980a9ae3153d16c9",
+        "GUID:9a6ddf5d388cc2b498e8a9d44bd289f0"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

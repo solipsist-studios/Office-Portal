@@ -27,6 +27,9 @@ public class SceneAnchorController : NetworkBehaviour
     private ulong? ownerId = null;
     private bool isSceneAnchorSet = false;
 
+    [SerializeField] private GameObject occluderObject;
+    [SerializeField] private Material occluderMaterial;
+
     // Handily, we only have anchors on AR platforms, where we DO want to disable the bg
     // Probably need to make this more robust in the future though...
     [SerializeField] private List<GameObject> disableWhenAnchored = new List<GameObject>();
@@ -90,6 +93,11 @@ public class SceneAnchorController : NetworkBehaviour
         foreach (GameObject obj in this.disableWhenAnchored)
         {
             obj.SetActive(false);
+        }
+
+        if (this.occluderObject != null)
+        {
+            this.occluderObject.GetComponent<Renderer>().material = this.occluderMaterial;
         }
     }
 

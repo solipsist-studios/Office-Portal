@@ -139,6 +139,10 @@ public class FirstPersonController : MonoBehaviour
         //#if UNITY_WEBGL 
         //        sign *= -1f;
         //#endif
+        if (lookJoystick == null || cameraTransform == null)
+        {
+            return;
+        }
 
         // vertical (pitch) rotation
         Vector2 lookDelta = new Vector2(lookJoystick.Horizontal, lookJoystick.Vertical) * cameraSensitivity * Time.deltaTime;
@@ -153,10 +157,15 @@ public class FirstPersonController : MonoBehaviour
 
     void Move() 
     {
-//        float sign = 1.0f;
-//#if UNITY_WEBGL 
-//        sign *= -1f;
-//#endif
+        //        float sign = 1.0f;
+        //#if UNITY_WEBGL 
+        //        sign *= -1f;
+        //#endif
+
+        if (lookJoystick == null || cameraTransform == null)
+        {
+            return;
+        }
 
         // Don't move if the touch delta is shorter than the designated dead zone
         //if (moveInput.sqrMagnitude <= moveInputDeadZone) return;

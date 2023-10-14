@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/CollisionDryRun.unity
     guid: b9666e571a9607342a3cbbfef23586ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Collision.unity
     guid: 0efc6ff67499b1147bda3b04486eb536
+  - enabled: 1
+    path: Assets/Scenes/Living Room.unity
+    guid: d8ea7219c371cb7439af453ebaffa1f3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e8463ceb326a2614b8e66311df25baa7, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f5f778d5f1e313d40addc7415b4ccaa8, type: 2}

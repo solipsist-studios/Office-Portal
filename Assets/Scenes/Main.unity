@@ -685,7 +685,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 1152204782}
-  characterController: {fileID: 1152204787}
+  moveJoystick: {fileID: 0}
+  lookJoystick: {fileID: 0}
   cameraSensitivity: 1
   moveSpeed: 3
   moveInputDeadZone: 1
@@ -698,7 +699,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1648121498960705328, guid: 72bbb440ae026914587dff2819777e4f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1648121498960705328, guid: 72bbb440ae026914587dff2819777e4f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -772,7 +773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8468018163133872214, guid: f9c3355fca44106429ccc1285a5e68d1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8468018163133872214, guid: f9c3355fca44106429ccc1285a5e68d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -898,6 +899,76 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
+--- !u!4 &1749086536 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+  m_PrefabInstance: {fileID: 1753410406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1753410406
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 525924127853659753}
+    m_Modifications:
+    - target: {fileID: 3250583092345500590, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.679
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093360410348, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.679
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.65480614
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.33600003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2737396
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9369469
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.34947166
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417865, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3250583093712417868, guid: a489019cf64164e448cdf8087a83e201, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a489019cf64164e448cdf8087a83e201, type: 3}
 --- !u!1 &1829830591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2351505566903569413, guid: 4d7e2f87fefe0ba468719b15288b46e7, type: 3}
@@ -933,7 +1004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8851522807220058065, guid: c2d52ffe4a0d98e4798c82796d0cbbd0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8851522807220058065, guid: c2d52ffe4a0d98e4798c82796d0cbbd0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1021,7 +1092,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 525924127853659753}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2119372421
 BoxCollider:
@@ -1107,6 +1178,7 @@ MonoBehaviour:
     m_Bits: 1
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
@@ -1161,6 +1233,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
     m_PersistentCalls:
       m_Calls: []
   m_Activated:
@@ -1478,6 +1562,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 705507995}
+  - {fileID: 1749086536}
   - {fileID: 2119372420}
   - {fileID: 2100527075}
   - {fileID: 1301487522}
@@ -1506,6 +1591,7 @@ MonoBehaviour:
     m_Bits: 1
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
+  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
@@ -1560,6 +1646,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
     m_PersistentCalls:
       m_Calls: []
   m_Activated:
@@ -1754,6 +1852,7 @@ MonoBehaviour:
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
   SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
 --- !u!114 &1589138556169609568
