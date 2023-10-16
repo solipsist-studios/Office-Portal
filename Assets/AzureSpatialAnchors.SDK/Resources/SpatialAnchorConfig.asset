@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SpatialAnchorConfig
   m_EditorClassIdentifier: 
   authenticationMode: 0
-  spatialAnchorsAccountId: a5284970-79c3-4162-b63c-b4818e79751d
-  spatialAnchorsAccountKey: peFzzfQaRjFVcPixXok2AROntZC4cO8FD+MSqQ5lOms=
+  spatialAnchorsAccountId: 58fa9f04-0a3f-4c07-b710-e489ebc8361d
+  spatialAnchorsAccountKey: ezaLoDPxyaP5EAHyVyVA/qAlDwCmN5DzGhCTwdhf9NY=
   spatialAnchorsAccountDomain: mixedreality.azure.com
   clientId: 
   tenantId: 
