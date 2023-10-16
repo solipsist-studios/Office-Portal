@@ -1,12 +1,22 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.atteneder.gltfast",
+        "com.de-panther"
+      ]
+    }
+  ],
   "dependencies": {
     "com.atteneder.gltfast": "5.0.4",
     "com.community.netcode.transport.websocket": "https://github.com/Unity-Technologies/multiplayer-community-contributions.git?path=/Transports/com.community.netcode.transport.websocket",
     "com.de-panther.webxr": "0.17.0",
-    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.13.3.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.13.3.tgz",
-    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.13.3.tgz",
-    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.7.0.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.android": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.14.1.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.14.1.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.windows": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.windows-2.14.1.tgz",
+    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.9.0.tgz",
     "com.microsoft.mrtk.core": "file:MixedReality/com.microsoft.mrtk.core-3.0.0-pre.14.tgz",
     "com.microsoft.mrtk.graphicstools.unity": "file:MixedReality/com.microsoft.mrtk.graphicstools.unity-0.4.0.tgz",
     "com.microsoft.mrtk.input": "file:MixedReality/com.microsoft.mrtk.input-3.0.0-pre.14.tgz",
@@ -59,16 +69,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  },
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.atteneder.gltfast",
-        "com.de-panther"
-      ]
-    }
-  ]
+    "com.unity.modules.xr": "1.0.0",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.ios-2.14.1.tgz"
+  }
 }
