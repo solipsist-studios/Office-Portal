@@ -92,12 +92,19 @@ public class SceneAnchorController : NetworkBehaviour
         this.isSceneAnchorSet = true;
         foreach (GameObject obj in this.disableWhenAnchored)
         {
-            obj.SetActive(false);
+            if (obj != null)
+            {
+                obj.SetActive(false);
+            }
         }
 
         if (this.occluderObject != null)
         {
-            this.occluderObject.GetComponent<Renderer>().material = this.occluderMaterial;
+            var renderer = this.occluderObject.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.material = this.occluderMaterial;
+            }
         }
     }
 
