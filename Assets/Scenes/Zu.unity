@@ -972,15 +972,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
       propertyPath: spatialAnchorsAccountId
-      value: 499cf653-ebaf-4fcd-9988-f903211ccda7
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
       propertyPath: spatialAnchorsAccountKey
-      value: M9B+TRaCcO63vUhO3CtWrFoLN0CD0LOCP3hfmUubqRw=
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5569524867056704838, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
       propertyPath: spatialAnchorsAccountDomain
-      value: mixedreality.azure.com
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5569524867056704841, guid: 1d6c575273a0f874fa5f118749bb742c, type: 3}
       propertyPath: m_Name
@@ -1246,6 +1246,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1648121498960705328, guid: 72bbb440ae026914587dff2819777e4f, type: 3}
   m_PrefabInstance: {fileID: 1577426799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1666774686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4320558180572046448, guid: 112d2c633aeb0884183035b7a081626a, type: 3}
+  m_PrefabInstance: {fileID: 2025780196}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1668797213
 PrefabInstance:
@@ -1582,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: -4320558180572046448, guid: 112d2c633aeb0884183035b7a081626a, type: 3}
       propertyPath: m_Name
       value: Zu Atrium
+      objectReference: {fileID: 0}
+    - target: {fileID: -4320558180572046448, guid: 112d2c633aeb0884183035b7a081626a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8851522807220058065, guid: 112d2c633aeb0884183035b7a081626a, type: 3}
       propertyPath: m_RootOrder
@@ -2163,9 +2172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b6b2a6c8b0a1ac4d87dda34f7828fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  occluderObject: {fileID: 0}
-  occluderMaterial: {fileID: 0}
+  occluderObject: {fileID: 1666774686}
+  occluderMaterial: {fileID: 2100000, guid: a17c012f62444904687012df2f216c66, type: 2}
   disableWhenAnchored:
   - {fileID: 296569032}
-  - {fileID: 0}
   - {fileID: 2119372419}

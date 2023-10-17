@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Solipsist Studios
-  productName: Living Room Portal
+  productName: Zu Portal
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -138,9 +138,9 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+  - {fileID: -2953611770090383079, guid: 3e6edff74be6d954a9da44028c25eff3, type: 2}
   - {fileID: 5542949883572509486, guid: 78bf33dbb8e75fc47a1eee681c03beb5, type: 2}
   - {fileID: 11400000, guid: 88efe604888bbc9488fbbd7f823cc2e2, type: 2}
-  - {fileID: -2953611770090383079, guid: 3e6edff74be6d954a9da44028c25eff3, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -160,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.SolipsistStudios.OfficePortal
+    Android: com.SolipsistStudios.ZuPortal
     Standalone: com.Solipsist-Studios.Office-Portal
   buildNumber:
     Standalone: 0
@@ -850,14 +850,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: LivingRoom
+  metroPackageName: ZuPortal
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: Solipsist Studios
   metroCertificateIssuer: Solipsist Studios
   metroCertificateNotAfter: 0079d60b4f5bda01
-  metroApplicationDescription: Office_Portal
+  metroApplicationDescription: Zu_Portal
   wsaImages: {}
   metroTileShortName: Hello Stage
   metroTileShowName: 0
